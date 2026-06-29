@@ -222,7 +222,7 @@ const Dashboard = () => {
 
         const user = JSON.parse(localStorage.getItem("user"));
 
-        await axios.post("https://speakquest-backend.onrender.com/api/save-history", {
+        await axios.post("https://speakquest-backend.onrender.com/api/auth/save-history", {
 
             userId: user._id,
 
