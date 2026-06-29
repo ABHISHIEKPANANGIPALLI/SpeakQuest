@@ -8,7 +8,7 @@ const {
     loginController,
     saveHistoryController,
     getHistoryController,
-} = require("../controllers/temp.js");
+} = require("../controllers/authController.js");
 
 router.get("/test", testController);
 router.post("/signup", signupController);
