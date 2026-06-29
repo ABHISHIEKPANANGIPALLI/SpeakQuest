@@ -132,3 +132,129 @@
     font-size:15px;
 
 }
+
+
+/* ==========================================
+   Tablet (1024px)
+========================================== */
+
+@media (max-width:1024px){
+
+.history-page{
+    height:auto;
+    min-height:100vh;
+    padding:100px 30px 40px;
+    overflow:visible;
+}
+
+.history-page h1{
+    font-size:36px;
+}
+
+.history-container{
+    width:95%;
+    height:auto;
+    overflow:visible;
+}
+
+.history-card{
+    padding:20px;
+}
+
+}
+
+
+/* ==========================================
+   Mobile (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.history-page{
+    height:auto;
+    min-height:100vh;
+    padding:90px 18px 30px;
+    overflow:visible;
+}
+
+.history-page h1{
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.history-container{
+    width:100%;
+    height:auto;
+    overflow:visible;
+    padding-right:0;
+}
+
+.history-card{
+    padding:18px;
+    border-radius:14px;
+    margin-bottom:20px;
+}
+
+.history-card h2{
+    font-size:22px;
+    margin-bottom:18px;
+}
+
+.user-message p,
+.ai-message p{
+    font-size:15px;
+    line-height:1.7;
+    word-break:break-word;
+}
+
+.score-box{
+    gap:10px;
+}
+
+.score-box span{
+    width:100%;
+    text-align:center;
+    font-size:14px;
+}
+
+}
+
+
+/* ==========================================
+   Small Mobile (480px)
+========================================== */
+
+@media (max-width:480px){
+
+.history-page{
+    padding:80px 12px 25px;
+}
+
+.history-page h1{
+    font-size:26px;
+}
+
+.history-card{
+    padding:15px;
+}
+
+.history-card h2{
+    font-size:20px;
+}
+
+.user-message h4,
+.ai-message h4{
+    font-size:18px;
+}
+
+.user-message p,
+.ai-message p{
+    font-size:14px;
+}
+
+.score-box span{
+    padding:10px;
+    font-size:13px;
+}
+
+}
