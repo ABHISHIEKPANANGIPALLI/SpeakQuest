@@ -1,6 +1,8 @@
 body{
-  overflow-y: hidden;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
+
 .page {
   height: 100vh;
   display: flex;
@@ -205,3 +207,207 @@ body{
 
 }
 
+
+
+/* ======================================
+   Tablet
+====================================== */
+
+@media (max-width:1024px){
+
+.page{
+    height:auto;
+    min-height:100vh;
+}
+
+.container{
+    flex-direction:column;
+    height:auto;
+    width:95%;
+    border-radius:40px;
+    padding:40px 20px;
+}
+
+.About{
+    width:100%;
+}
+
+.intro{
+    margin:0;
+    text-align:center;
+}
+
+.sphere{
+    margin:0;
+}
+
+.login-card{
+    width:90%;
+    margin:40px 0 0;
+}
+
+.features{
+    gap:40px;
+}
+
+}
+
+
+/* ======================================
+   Mobile
+====================================== */
+
+@media (max-width:768px){
+
+.page{
+    height:auto;
+    min-height:100vh;
+}
+
+.container{
+
+    flex-direction:column;
+    justify-content:flex-start;
+
+    height:auto;
+    width:95%;
+
+    padding:30px 15px;
+
+    border-radius:30px;
+
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+.navbar{
+
+    width:95%;
+    padding-top:15px;
+
+}
+
+.About{
+
+    width:100%;
+
+}
+
+.intro{
+
+    margin:0;
+    text-align:center;
+
+}
+
+.title{
+
+    font-size:2rem;
+
+}
+
+.sub{
+
+    font-size:15px;
+
+}
+
+.sphere{
+
+    width:250px;
+    height:250px;
+
+    margin:0 auto;
+
+}
+
+.features{
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.feature-card p{
+
+    font-size:16px;
+
+}
+
+.login-card{
+
+    width:100%;
+
+    margin:30px 0 0;
+
+    padding:25px;
+
+}
+
+.login-card h1{
+
+    font-size:30px;
+
+}
+
+.input-group input{
+
+    padding:12px;
+
+}
+
+.login-btn{
+
+    padding:14px;
+
+}
+
+}
+
+
+/* ======================================
+   Small Mobile
+====================================== */
+
+@media (max-width:480px){
+
+.title{
+
+    font-size:1.8rem;
+
+}
+
+.sub{
+
+    font-size:14px;
+
+}
+
+.sphere{
+
+    width:210px;
+    height:210px;
+
+}
+
+.login-card{
+
+    padding:18px;
+
+}
+
+.login-card h1{
+
+    font-size:26px;
+
+}
+
+.features{
+
+    gap:18px;
+
+}
+
+}
