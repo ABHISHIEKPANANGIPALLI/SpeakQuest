@@ -387,19 +387,24 @@ const Dashboard = () => {
         // ==========================
         recognition.onend = async function () {
 
-            if (!finalTranscript.trim()) {
-              return;
-            }
+    if (!finalTranscript.trim()) return;
 
-            // Get complete AI result
-            const aiResult = await askAI(finalTranscript);
+    const aiResult = await askAI(finalTranscript);
 
-            // Save conversation
-            await saveHistory(finalTranscript, aiResult);
+    await saveHistory(finalTranscript, aiResult);
 
-            // Speak AI reply
-           speak(aiResult.reply);
-        };
+    // Desktop
+    if (window.innerWidth > 768) {
+        speak(aiResult.reply);
+    }
+
+    // Mobile
+    else {
+        setTimeout(() => {
+            speak(aiResult.reply);
+        }, 500);
+    }
+};
 
 
         // ==========================
