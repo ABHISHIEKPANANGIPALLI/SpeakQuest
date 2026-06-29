@@ -206,3 +206,179 @@ body{
 
 }
 
+
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+  body{
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+
+  .page{
+    min-height:100vh;
+    height:auto;
+  }
+
+  .container{
+
+    width:95%;
+    height:auto;
+
+    margin:20px auto;
+
+    padding:25px 15px;
+
+    border-radius:30px;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:flex-start;
+    align-items:center;
+  }
+
+  /* ABOUT */
+
+  .About{
+
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+    justify-content:center;
+  }
+
+  .sphere{
+
+    width:220px;
+    height:220px;
+
+    margin:0 auto 20px;
+  }
+
+  .intro{
+
+    width:100%;
+
+    margin:0;
+
+    text-align:center;
+  }
+
+  .title{
+
+    font-size:2.3rem;
+
+    line-height:1.25;
+  }
+
+  .sub{
+
+    font-size:15px;
+
+    line-height:1.7;
+  }
+
+  .features{
+
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:25px;
+
+    margin-top:30px;
+  }
+
+  .feature-card{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+  }
+
+  .feature-card p{
+
+    font-size:16px;
+  }
+
+  .icon-box{
+
+    width:55px;
+    height:55px;
+  }
+
+  /* SIGNUP CARD */
+
+  .signup-card{
+
+    width:100%;
+
+    margin:35px 0 0;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-sizing:border-box;
+  }
+
+  .signup-card h1{
+
+    text-align:center;
+
+    font-size:2rem;
+  }
+
+  .subtitle{
+
+    text-align:center;
+
+    font-size:15px;
+  }
+
+  .input-group{
+
+    width:100%;
+  }
+
+  .input-group input{
+
+    width:100%;
+
+    box-sizing:border-box;
+  }
+
+  .signup-btn{
+
+    width:100%;
+  }
+
+  .signup-text{
+
+    text-align:center;
+  }
+
+  /* NAVBAR */
+
+  .navbar{
+
+    width:95%;
+
+    height:60px;
+
+    padding-top:15px;
+
+    display:flex;
+    align-items:center;
+  }
+
+}
