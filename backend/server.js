@@ -5,11 +5,11 @@ require("dotenv").config();
 const connectDB = require("./config/db");
 
 const app = express();
+
 app.use(cors());
+app.use(express.json());
 
 connectDB();
-
-app.use(express.json());
 
 const authRoutes = require("./routes/authRoutes");
 
@@ -19,6 +19,9 @@ app.get("/", (req, res) => {
   res.send("SpeakQuest Backend Running");
 });
 
-app.listen(5000, () => {
-  console.log("Server Running");
+// Render provides PORT automatically
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server Running on Port ${PORT}`);
 });
