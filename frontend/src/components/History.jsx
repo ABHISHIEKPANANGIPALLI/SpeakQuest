@@ -22,7 +22,7 @@ const History = () => {
             const user = JSON.parse(localStorage.getItem("user"));
 
             const response = await axios.get(
-                `http://localhost:5000/api/auth/api/history/${user._id}`
+                `http://localhost:5000/api/auth/history/${user._id}`
             );
 
             setHistory(response.data.history);
