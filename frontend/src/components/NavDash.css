@@ -1,0 +1,59 @@
+.nav{
+    padding-top:10px;
+    padding-left: 10px;
+    height:4rem;
+    display: flex;
+    flex-direction: row;
+    gap:1250px;
+}
+h1{
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.Quest{
+    color:#7C3AED;
+}
+
+.profile-section{
+    position:relative;
+}
+.profile-btn{
+    height:3rem;
+    width:3rem;
+    position: absolute;
+    right:6rem;
+    top:1rem;
+    background-color:#9894a0;
+    border:1px solid #7C3AED;
+    border-radius:50%;
+
+    font-size:30px;
+    cursor:pointer;
+}
+
+.dropdown{
+    position:absolute;
+    top:70px;
+    right:5rem;
+
+    width:120px;
+
+    background:#0b1738;
+    border:1px solid #7C3AED;
+    border-radius:10px;
+
+    overflow:hidden;
+}
+
+.dropdown p{
+    color:white;
+    padding:12px;
+    cursor:pointer;
+}
+
+.dropdown p:hover{
+    background:#7C3AED;
+}
