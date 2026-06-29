@@ -28,7 +28,7 @@ const SignUp = () => {
       }
 
       const response = await axios.post(
-        "https://speakquest-backend.onrender.com/api/auth/login",
+        "https://speakquest-backend.onrender.com/api/auth/singnup",
         {
           name: formData.name,
           email: formData.email,
