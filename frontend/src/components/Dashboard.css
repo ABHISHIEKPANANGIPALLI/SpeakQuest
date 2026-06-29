@@ -251,6 +251,35 @@
 
 @media (max-width:1024px){
 
+    html,
+body{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.dashboard{
+    height:auto !important;
+    min-height:100vh;
+    overflow:visible;
+    margin-bottom:30px;
+}
+
+.ai{
+    height:auto;
+}
+
+.track{
+    height:auto;
+    margin-top:25px;
+}
+
+.transcript-box,
+.ai-box{
+    min-height:160px;
+    max-height:none;
+    overflow:visible;
+}
+
 .dashboard{
     flex-direction:column;
     height:auto;
