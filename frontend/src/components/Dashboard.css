@@ -245,3 +245,228 @@
 }
 
 
+/* ===========================
+   Tablet (1024px)
+=========================== */
+
+@media (max-width:1024px){
+
+.dashboard{
+    flex-direction:column;
+    height:auto;
+    width:95%;
+    margin:1rem auto;
+    padding:20px;
+    gap:30px;
+}
+
+.ai{
+    width:100%;
+}
+
+.track{
+    width:100%;
+}
+
+.welcome{
+    position:static;
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+}
+
+.transcript-box,
+.ai-box{
+    width:95%;
+}
+
+}
+
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width:768px){
+
+.dashboard{
+
+    width:95%;
+    margin:1rem auto;
+    padding:15px;
+    border-radius:18px;
+
+}
+
+.ai{
+
+    width:100%;
+    margin-top:0;
+
+}
+
+.welcome{
+
+    position:static;
+    width:100%;
+    text-align:center;
+    margin-bottom:15px;
+
+}
+
+.welcome h1{
+
+    font-size:2rem;
+
+}
+
+.voice-buttons{
+
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    margin-top:10px;
+
+}
+
+.speak{
+
+    width:220px;
+
+}
+
+.stop-btn{
+
+    width:45px;
+    height:45px;
+
+}
+
+.transcript-box,
+.ai-box{
+
+    width:100%;
+    padding:12px;
+    font-size:15px;
+
+}
+
+.track{
+
+    width:100%;
+
+}
+
+.track h2{
+
+    text-align:center;
+
+}
+
+.card{
+
+    padding:15px;
+
+}
+
+.content h3{
+
+    font-size:18px;
+
+}
+
+.content p{
+
+    font-size:13px;
+
+}
+
+.score span{
+
+    font-size:28px;
+
+}
+
+.info-card{
+
+    padding:15px;
+
+}
+
+}
+
+
+/* ===========================
+   Small Mobile (480px)
+=========================== */
+
+@media (max-width:480px){
+
+.dashboard{
+
+    padding:12px;
+
+}
+
+.welcome h1{
+
+    font-size:1.7rem;
+
+}
+
+.speak{
+
+    width:190px;
+    font-size:16px;
+
+}
+
+.transcript-box,
+.ai-box{
+
+    font-size:14px;
+
+}
+
+.card{
+
+    flex-wrap:wrap;
+    gap:12px;
+
+}
+
+.icon{
+
+    width:35px;
+    height:35px;
+    font-size:22px;
+
+}
+
+.content{
+
+    margin-left:10px;
+
+}
+
+.score{
+
+    width:100%;
+    text-align:left;
+    margin-top:10px;
+
+}
+
+.score span{
+
+    font-size:24px;
+
+}
+
+.info-card{
+
+    font-size:18px;
+
+}
+
+}
