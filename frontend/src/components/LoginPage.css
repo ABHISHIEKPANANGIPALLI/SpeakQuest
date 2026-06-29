@@ -276,12 +276,15 @@ body{
 }
 
 .sphere{
-
     width:220px;
-
     height:220px;
 
-    margin:0 auto 20px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
 }
 
 .features{
